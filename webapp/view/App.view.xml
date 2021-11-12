@@ -46,6 +46,14 @@
 						</f:FormElement>
 						<f:FormElement>
 							<f:label>
+								<Label text="Only Integer"/>
+							</f:label>
+							<f:fields>
+								<Input id="int2" value="{ path: '/IntegerValue2', type:'sap.ui.model.type.Integer' }"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement>
+							<f:label>
 								<Label text="Integer 0-100"/>
 							</f:label>
 							<f:fields>
